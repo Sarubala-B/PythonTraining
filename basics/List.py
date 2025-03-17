@@ -43,8 +43,9 @@ print(thislist)
 
 # remove with index
 thislist = ["apple", "banana", "cherry"]
-thislist.pop(1)
+data = thislist.pop(1)
 print(thislist)
+print(f"deleted {data}")
 thislist.pop()
 print(thislist)
 
@@ -52,6 +53,7 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 del thislist[0]
 print(thislist)
+print
 
 # Clear
 thislist = ["apple", "banana", "cherry"]
@@ -74,6 +76,3 @@ thislist = ["apple", "banana", "cherry"]
 mylist = list(thislist)
 print(mylist)
 
-thislist = ["apple", "banana", "cherry"]
-mylist = thislist[:]
-print(mylist)
